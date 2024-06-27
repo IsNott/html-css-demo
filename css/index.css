@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+}
+.title{
+	overflow: hidden;
+	text-align: center;
+	background-color: #E0E0E0;
+	padding: 20px;
+}
+
+.topNav{
+	width: 100%;
+}
+
+.topNav li a {
+	display: inline-block;
+	float: left;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.topNav li a:hover{
+	color: #666;
+	background-color: white;
+}
+
+.topNav li a.active{
+	color: #666;
+	background-color: #4CAF50;
+}
+
+.topNav ul{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	/*position: fixed;*/
+	overflow: hidden;
+	background-color: #372727;
+}
+
+.topNav li{
+	float: left;
+	border-right: 1px solib #bbb;
+
+}
+
+.topNav li:last-child{
+	border-right: none;
+}
+
+.leftColum{
+	float: left;
+	width: 75%;
+}
+
+.rightColum{
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+.imgDiv{
+	padding: 20px;
+	background-color: #E0E0E0;
+}
+
+.card{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+	margin-left: 20px;
+}
+/*clear float*/
+.context:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer{
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+}
+.footer p{
+	color: white;
+	margin: 6px 0px;
+}
+
+.plog{
+	text-indent:20px;
+}
+.profile{
+	padding: 10px;
+	background-color: #E0E0E0;
+}
+
+.card a{
+	text-decoration: none;
+}
+
+.card a:hover{
+	color: black;
+}
+
+.card ul{
+	margin:0px;
+	padding: 0px;
+}
+
+.card li{
+	list-style-type: none;
+	margin-top: 10px;
+}
