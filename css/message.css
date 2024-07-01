@@ -1,0 +1,21 @@
+.message-card{
+		margin: 20px 10px;
+		padding: 10px;
+		width: 30%;
+		border: 1px solid gray;
+		display: inline-block;
+	}
+
+	.message-card a{
+		width: 5%;
+		margin: auto;
+	}
+
+	.context h3{
+		padding: 10px;
+	}
+	.input{
+		padding: 10px;
+		display: block;
+		margin: 10px 4px;
+	}

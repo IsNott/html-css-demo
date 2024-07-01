@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+}
+
+.notice td a{
+	color: gray;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+.notice td a::hover{
+	color: black;
+}
+
+table{
+	margin-bottom: 100px;
+	/*margin-top: 20px;*/
+	float: left;
+	padding: 20px;
+	width: 100%;
+	border-collapse:separate;
+	text-align: center;
+	border-spacing: 10px;
+}
+
+table tr{
+	border: 1px solid black;
+}
+
+.notice:after{
+	content: "";
+  display: table;
+  clear: both;
+}
+.search{
+	padding: 20px;
+	/*padding-left: 110px;*/
+}
+
+.input a{
+	text-decoration: none;
+	/*background-color: black;*/
+	color: black;
+	padding: 1px;
+}
+
+.list-title h3{
+	padding-left: 20px;
+}
+
+.bottom{
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	color: white;
+}
